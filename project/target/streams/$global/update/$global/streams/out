@@ -5,18 +5,591 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[info] Resolving io.spray#sbt-revolver;0.7.1 ...
+[debug] sbt-chain: Checking cache for: dependency: io.spray#sbt-revolver;0.7.1 {compile=[default(compile)]}
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for io.spray#sbt-revolver;0.7.1
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: found md file for io.spray#sbt-revolver;0.7.1
+[debug] 		=> http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml (0.7.1)
+[debug] downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml ...
+[debug] 	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml.sha1
+[debug] sha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml
+[debug] 	[SUCCESSFUL ] io.spray#sbt-revolver;0.7.1!ivy.xml(ivy.original) (1060ms)
+[debug] 	found io.spray#sbt-revolver;0.7.1 in sbt-plugin-releases
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[info] Resolving com.earldouglas#xsbt-web-plugin;0.5.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.earldouglas#xsbt-web-plugin;0.5.0 {compile=[default(compile)]}
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/scala_2.10/sbt_0.13/0.5.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/scala_2.10/sbt_0.13/0.5.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.earldouglas#xsbt-web-plugin;0.5.0
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.earldouglas/xsbt-web-plugin/scala_2.10/sbt_0.13/0.5.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.earldouglas/xsbt-web-plugin/scala_2.10/sbt_0.13/0.5.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.earldouglas#xsbt-web-plugin;0.5.0
+[debug] 		tried /Users/kostasmamalis/.ivy2/local/com.earldouglas/xsbt-web-plugin/scala_2.10/sbt_0.13/0.5.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.earldouglas#xsbt-web-plugin;0.5.0
+[debug] 		tried http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom
+[debug] 	public: found md file for com.earldouglas#xsbt-web-plugin;0.5.0
+[debug] 		=> http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom (0.5.0)
+[debug] downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.pom
+[debug] 	[SUCCESSFUL ] com.earldouglas#xsbt-web-plugin;0.5.0!xsbt-web-plugin.pom(pom.original) (653ms)
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/0.5.0/jars/xsbt-web-plugin.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.earldouglas/xsbt-web-plugin/0.5.0/jars/xsbt-web-plugin.jar
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.earldouglas/xsbt-web-plugin/0.5.0/jars/xsbt-web-plugin.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.earldouglas/xsbt-web-plugin/0.5.0/jars/xsbt-web-plugin.jar
+[debug] 		tried /Users/kostasmamalis/.ivy2/local/com.earldouglas/xsbt-web-plugin/0.5.0/jars/xsbt-web-plugin.jar
+[debug] 		tried http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin/0.5.0/xsbt-web-plugin-0.5.0.jar
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin/0.5.0/xsbt-web-plugin-0.5.0.jar
+[debug] 	found com.earldouglas#xsbt-web-plugin;0.5.0 in public
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[info] Resolving org.mortbay.jetty#jetty;6.1.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mortbay.jetty#jetty;6.1.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty;6.1.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.mortbay.jetty#jetty;6.1.22
+[debug] 	found org.mortbay.jetty#jetty;6.1.22 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[info] Resolving org.mortbay.jetty#jetty-util;6.1.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mortbay.jetty#jetty-util;6.1.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.mortbay.jetty#jetty-util;6.1.22
+[debug] 	found org.mortbay.jetty#jetty-util;6.1.22 in sbt-chain
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[info] Resolving org.mortbay.jetty#servlet-api;2.5-20081211 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#servlet-api;2.5-20081211
+[debug] 	typesafe-ivy-releases: revision in cache: org.mortbay.jetty#servlet-api;2.5-20081211
+[debug] 	found org.mortbay.jetty#servlet-api;2.5-20081211 in sbt-chain
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[info] Resolving org.mortbay.jetty#jetty-plus;6.1.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mortbay.jetty#jetty-plus;6.1.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-plus;6.1.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.mortbay.jetty#jetty-plus;6.1.22
+[debug] 	found org.mortbay.jetty#jetty-plus;6.1.22 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[info] Resolving geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 ...
+[debug] sbt-chain: Checking cache for: dependency: geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: geronimo-spec#geronimo-spec-jta;1.0.1B-rc4
+[debug] 	typesafe-ivy-releases: revision in cache: geronimo-spec#geronimo-spec-jta;1.0.1B-rc4
+[debug] 	found geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 in sbt-chain
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-webapp;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-xml;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-xml;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-xml;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-xml;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-util;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-util;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-util;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-servlet;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-security;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-security;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-security;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-security;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-server;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-server;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-server;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[info] Resolving javax.servlet#javax.servlet-api;3.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.1.0
+[debug] 	typesafe-ivy-releases: revision in cache: javax.servlet#javax.servlet-api;3.1.0
+[debug] 	found javax.servlet#javax.servlet-api;3.1.0 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-http;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-http;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-http;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-io;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-io;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-io;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-plus;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-plus;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-plus;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-plus;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[info] Resolving org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;9.1.0.v20131115
+[debug] 	typesafe-ivy-releases: revision in cache: org.eclipse.jetty#jetty-jndi;9.1.0.v20131115
+[debug] 	found org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 in sbt-chain
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[info] Resolving org.apache.tomcat.embed#tomcat-embed-core;7.0.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.tomcat.embed#tomcat-embed-core;7.0.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.tomcat.embed#tomcat-embed-core;7.0.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.apache.tomcat.embed#tomcat-embed-core;7.0.22
+[debug] 	found org.apache.tomcat.embed#tomcat-embed-core;7.0.22 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[info] Resolving org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22
+[debug] 	found org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[info] Resolving org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22
+[debug] 	typesafe-ivy-releases: revision in cache: org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22
+[debug] 	found org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 in sbt-chain
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0
+[debug] 	found com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[info] Resolving com.typesafe.sbteclipse#sbteclipse-core;2.4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.4.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.4.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-core;2.4.0
+[debug] 	found com.typesafe.sbteclipse#sbteclipse-core;2.4.0 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-core_2.10;7.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.2 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.2
+[debug] 	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-core_2.10;7.0.2
+[debug] 	found org.scalaz#scalaz-core_2.10;7.0.2 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-library;2.10.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.1
+[debug] 	found org.scala-lang#scala-library;2.10.1 in sbt-chain
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-effect_2.10;7.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.0.2 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.2
+[debug] 	typesafe-ivy-releases: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.2
+[debug] 	found org.scalaz#scalaz-effect_2.10;7.0.2 in sbt-chain
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d737308
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45cbf853
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -574,6 +1147,145 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
@@ -904,12 +1616,284 @@
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.7.1 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->runtime]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [compile->compile(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->master(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->master(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [compile->compile(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#jetty-util;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty;6.1.22->org.mortbay.jetty#servlet-api;2.5-20081211 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.mortbay.jetty#jetty-plus;6.1.22 [runtime->compile]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.mortbay.jetty#jetty-plus;6.1.22->geronimo-spec#geronimo-spec-jta;1.0.1B-rc4 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-xml;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-xml;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-webapp;9.1.0.v20131115->org.eclipse.jetty#jetty-servlet;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-servlet;9.1.0.v20131115->org.eclipse.jetty#jetty-security;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-security;9.1.0.v20131115->org.eclipse.jetty#jetty-server;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->javax.servlet#javax.servlet-api;3.1.0 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-http;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;9.1.0.v20131115->org.eclipse.jetty#jetty-io;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;9.1.0.v20131115->org.eclipse.jetty#jetty-util;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;7.5.1.v20110908 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-plus;9.1.0.v20131115->org.eclipse.jetty#jetty-jndi;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-webapp;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.eclipse.jetty#jetty-plus;9.1.0.v20131115 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22 [runtime->compile]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies com.earldouglas#xsbt-web-plugin;0.5.0->org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22 [runtime->compile]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->runtime(*)]
+[debug] == resolving dependencies org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22->org.apache.tomcat.embed#tomcat-embed-core;7.0.22 [runtime->compile]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.earldouglas#xsbt-web-plugin;0.5.0 [compile->master]
+[debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->default(compile)]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->runtime]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scalaz#scalaz-core_2.10;7.0.2 [runtime->compile]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#msr-spray-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
@@ -1289,6 +2273,41 @@
 [debug] == resolving dependencies default#msr-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar
+[info] downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar ...
+[debug] 	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar
+[debug] 	sbt-plugin-releases: downloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar.sha1
+[debug] sha1 OK for http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar
+[info] 	[SUCCESSFUL ] io.spray#sbt-revolver;0.7.1!sbt-revolver.jar (1403ms)
+[debug] 		tried http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.jar
+[info] downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.jar ...
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.jar
+[debug] 	public: downloading http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.jar.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/com/earldouglas/xsbt-web-plugin_2.10_0.13/0.5.0/xsbt-web-plugin-0.5.0.jar
+[info] 	[SUCCESSFUL ] com.earldouglas#xsbt-web-plugin;0.5.0!xsbt-web-plugin.jar (712ms)
+[debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0!sbteclipse-plugin.jar
+[debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty;6.1.22!jetty.jar
+[debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-plus;6.1.22!jetty-plus.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.1.0.v20131115!jetty-webapp.jar
+[debug] 	[NOT REQUIRED] org.apache.tomcat.embed#tomcat-embed-core;7.0.22!tomcat-embed-core.jar
+[debug] 	[NOT REQUIRED] org.apache.tomcat.embed#tomcat-embed-logging-juli;7.0.22!tomcat-embed-logging-juli.jar
+[debug] 	[NOT REQUIRED] org.apache.tomcat.embed#tomcat-embed-jasper;7.0.22!tomcat-embed-jasper.jar
+[debug] 	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.22!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.mortbay.jetty#servlet-api;2.5-20081211!servlet-api.jar
+[debug] 	[NOT REQUIRED] geronimo-spec#geronimo-spec-jta;1.0.1B-rc4!geronimo-spec-jta.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.1.0.v20131115!jetty-xml.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.1.0.v20131115!jetty-servlet.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.1.0.v20131115!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.1.0.v20131115!jetty-security.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.1.0.v20131115!jetty-server.jar
+[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.1.0.v20131115!jetty-http.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.1.0.v20131115!jetty-io.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-jndi;9.1.0.v20131115!jetty-jndi.jar
+[debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.4.0!sbteclipse-core.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.5!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.5!main.jar
@@ -1337,7 +2356,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1552ms :: artifacts dl 66ms
+[debug] :: resolution report :: resolve 4929ms :: artifacts dl 2149ms
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT compile produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-compile.xml
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT runtime produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-runtime.xml
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT test produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-test.xml
@@ -1351,5 +2370,5 @@
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT docs produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-docs.xml
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT pom produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-pom.xml
 [debug] 	report for default#msr-spray-build;0.1-SNAPSHOT scala-tool produced in /Users/kostasmamalis/development/personal/msr-spray/project/target/resolution-cache/reports/default-msr-spray-build-scala-tool.xml
-[debug] 	resolve done (1552ms resolve - 66ms download)
+[debug] 	resolve done (4929ms resolve - 2149ms download)
 [info] Done updating.
